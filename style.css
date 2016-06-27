@@ -1,0 +1,50 @@
+	#matrix{ /*DETAILS of the code!!!!*/
+		width: 50%;
+	  margin: 0 auto;
+		position: relative;
+	}
+	body{
+	    background-image: url("image2.png"); /*image positioning*/
+		  background-repeat: no-repeat;
+	}
+	h1{
+		color: #ff3900;
+	}
+	strong{
+		color: #ff3900;
+	}
+	span {
+	text-decoration: underline;
+	}
+	ul{
+		list-style-type: none;
+	}
+	ul li:before{
+		content: "\2022";
+		margin-right: 10px;
+		color:#ff3900;
+	}
+	ul li{
+		color: #555;
+	}
+	a{
+		color: #ff3900;/*a href referances*/
+	}
+	@media screen and (max-width:959px){/*the SPACES!!! WIDTH important*/
+				#container{
+					width:100%;
+		}
+	}
+	@media screen and (max-width:700px){/*WIDTH important*/
+				#container{
+					width:100%;
+		}
+		#matrix{/*for to have the image full size all the time*/
+				width: 100%;
+		}
+	}
+	@media screen and (max-width:320px){ /*WIDTH important*/
+				#container{
+					width:320px;
+		}
+	}
